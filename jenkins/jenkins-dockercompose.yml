@@ -1,0 +1,13 @@
+version: '3'
+services:
+  jenkins:
+    image: mlucken/jenkins-arm
+    container_name: jenkins
+    restart: unless-stopped
+    environment:
+      TZ: "Asia/Kolkata"
+    volumes:
+      - /opt/docker/jenkins:/var/jenkins_home
+    ports:
+      - 8080:8080
+      - 50000:50000
