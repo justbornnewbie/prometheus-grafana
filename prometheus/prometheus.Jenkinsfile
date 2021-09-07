@@ -1,4 +1,4 @@
-def git_url = 'https://github.com/newbielinux1/pi-project.git'
+def git_url = 'https://github.com/rjmsas/prometheus-grafana.git'
 def git_branch = 'main'
 
 pipeline
