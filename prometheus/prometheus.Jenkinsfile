@@ -5,7 +5,7 @@ pipeline
 {
     agent
     {
-        label 'piserver'
+        label 'unode1'
     }
 
     stages
